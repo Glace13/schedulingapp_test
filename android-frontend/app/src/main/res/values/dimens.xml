@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_title_text_size">30sp</dimen>
+    <dimen name="side_margins">55sp</dimen>
+    <dimen name="section_top_margins">15sp</dimen>
+    <dimen name="section_divider_top_margins">25sp</dimen>
+    <dimen name="header_text_size">30sp</dimen>
+    <dimen name="toolbar_margin">35sp</dimen>
+    <dimen name="profile_img_size">80sp</dimen>
+    <dimen name="input_field_height">50sp</dimen>
+    <dimen name="button_text_size">11sp</dimen>
+    <dimen name="task_item_horizontal_margins">8sp</dimen>
+    <dimen name="task_box_title_size">18sp</dimen>
+    <dimen name="task_field_text_size">14sp</dimen>
+    <dimen name="task_field_box_padding">10sp</dimen>
+    <dimen name="task_description_box_height">120sp</dimen>
+</resources>

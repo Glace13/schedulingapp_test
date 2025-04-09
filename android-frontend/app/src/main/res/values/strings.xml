@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Scheduling App</string>
+    <string name="login_header">Nice to see you!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="welcome_header">Welcome, %s</string>
+    <string name="tasks_not_started_header">Tasks Not Started</string>
+    <string name="tasks_in_progress_header">Tasks In Progress</string>
+    <string name="tasks_completed_header">Completed Tasks</string>
+    <string name="not_started">Not Started</string>
+    <string name="in_progress">In Progress</string>
+    <string name="completed">Completed</string>
+    <string name="add_task">Add Task</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="task_activity_mode">%s Task</string>
+    <string name="task_title">Enter Task Title</string>
+    <string name="task_description">Enter Task Description</string>
+    <string name="due_date">Select Due Date</string>
+    <string name="select_date">Select Date and Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+</resources>

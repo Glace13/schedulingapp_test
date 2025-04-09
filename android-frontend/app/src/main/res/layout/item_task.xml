@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primary"
+    android:padding="@dimen/task_field_box_padding"
+    android:layout_marginBottom="@dimen/section_top_margins">
+
+    <TextView
+        android:id="@+id/task_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edit_task_button"
+        app:layout_constraintTop_toTopOf="@id/edit_task_button"
+        app:layout_constraintBottom_toBottomOf="@id/edit_task_button"
+        android:layout_marginStart="@dimen/task_item_horizontal_margins"
+        tools:text="Task Title"
+        android:textSize="@dimen/task_box_title_size"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_on_primary"/>
+
+    <Button
+        android:id="@+id/edit_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@id/delete_task_button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/task_item_horizontal_margins"
+        android:text="@string/edit"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:backgroundTint="@color/design_default_color_on_primary"/>
+
+    <Button
+        android:id="@+id/delete_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/task_item_horizontal_margins"
+        android:text="@string/delete"
+        android:textSize="@dimen/button_text_size"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:backgroundTint="@color/design_default_color_on_primary"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
